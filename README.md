@@ -47,6 +47,8 @@
 
 ## #配置网络
 
+> Ubuntu 18.04 在网络配置与之前有较大的改变, 配置/etc/network/interfaces已无用
+
 - sudo vim /etc/netplan/50-cloud-init.yaml
 - 进行以下配置，根据自己的网络情况适当改变（我配置10台，每个ip都要不一样）
   ```
